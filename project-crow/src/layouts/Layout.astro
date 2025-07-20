@@ -15,7 +15,7 @@ const { title } = Astro.props;
     <meta charset="UTF-8" />
     <meta name="description" content="Portfolio Annur Hangga Prihadi" />
     <meta name="viewport" content="width=device-width" />
-    <link rel="icon" type="image/png" href="/Rvn.png" />
+    <link rel="icon" type="image/png" href={`${import.meta.env.BASE_URL}Rvn.png`} />
     <title>{title}</title>
   </head>
   <body class="bg-white text-gray-800 dark:bg-gray-900 dark:text-gray-200 font-sans transition-colors duration-300">
