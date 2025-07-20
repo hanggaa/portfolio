@@ -1,0 +1,115 @@
+---
+// src/components/CertificatesSection.astro (VERSI FINAL DENGAN FIX MOBILE)
+import { certificates } from '../data/certificates.js';
+import 'swiper/css';
+import 'swiper/css/navigation';
+---
+<section id="certificates" class="py-24 bg-white dark:bg-gray-800 overflow-hidden transition-colors duration-300">
+  <div class="container mx-auto px-4">
+    <div class="text-center mb-16">
+      <h2 class="text-4xl font-bold">Certifications & Achievements</h2>
+      <p class="text-purple-500 dark:text-purple-400 mt-2">A showcase of my validated skills and expertise.</p>
+    </div>
+  </div>
+  
+  <div class="swiper-certificates-focus relative w-full md:px-10">
+    <div class="swiper-wrapper">
+      {certificates.map(cert => (
+        <div class="swiper-slide">
+          <a href={cert.credentialUrl} target="_blank" rel="noopener noreferrer" class="group block h-full">
+            <div class="bg-gray-50 dark:bg-gray-900 rounded-lg overflow-hidden border border-gray-200 dark:border-gray-700 h-full flex flex-col transition-colors duration-300">
+              <div class="overflow-hidden p-4">
+                <img src={cert.imgSrc} alt={cert.title} class="w-full h-48 object-contain transition-transform duration-300 group-hover:scale-105" />
+              </div>
+              <div class="p-4 mt-auto border-t border-gray-200 dark:border-gray-700 transition-colors duration-300">
+                <h3 class="text-sm font-semibold text-gray-700 dark:text-gray-200 text-center transition-colors duration-300" title={cert.title}>{cert.title}</h3>
+              </div>
+            </div>
+          </a>
+        </div>
+      ))}
+    </div>
+    <div class="swiper-button-prev text-gray-800 dark:text-white transition-colors duration-300 hidden md:flex"></div>
+    <div class="swiper-button-next text-gray-800 dark:text-white transition-colors duration-300 hidden md:flex"></div>
+    </div>
+</section>
+
+<style>
+  /* Kita hapus padding dari sini karena sudah ditangani oleh Tailwind */
+  .swiper-certificates-focus {
+    /* padding: 0 40px; */ /* <-- BARIS INI DIHAPUS */
+  }
+
+  .swiper-slide {
+    height: auto;
+    transform: scale(0.8);
+    opacity: 0.5;
+    transition: transform 0.4s ease, opacity 0.4s ease;
+  }
+  .swiper-slide-active {
+    transform: scale(1);
+    opacity: 1;
+  }
+  
+  /* Pindahkan style panah ke sini agar lebih rapi */
+  .swiper-button-prev,
+  .swiper-button-next {
+    top: 50%;
+    transform: translateY(-50%);
+    width: 44px;
+    height: 44px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 9999px;
+  }
+
+  .dark .swiper-button-prev,
+  .dark .swiper-button-next {
+    background-color: rgba(0, 0, 0, 0.3);
+  }
+
+  .swiper-button-prev::after,
+  .swiper-button-next::after {
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  .swiper-button-prev {
+    left: 10px;
+  }
+  .swiper-button-next {
+    right: 10px;
+  }
+</style>
+
+<script>
+  // Tidak ada perubahan di script, konfigurasi sudah benar
+  import Swiper from 'swiper';
+  import { Navigation, Autoplay } from 'swiper/modules';
+
+  const swiperCertificatesFocus = new Swiper('.swiper-certificates-focus', {
+    modules: [Navigation, Autoplay],
+    effect: 'slide',
+    loop: true,
+    centeredSlides: true,
+    slidesPerView: 1,
+    spaceBetween: 20,
+    autoplay: {
+      delay: 3500,
+      disableOnInteraction: false,
+    },
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+    },
+    breakpoints: {
+      640: {
+        slidesPerView: 2,
+        spaceBetween: 30,
+      },
+      1024: {
+        slidesPerView: 3.5,
+        spaceBetween: 40,
+      }
+    }
+  });
+</script>

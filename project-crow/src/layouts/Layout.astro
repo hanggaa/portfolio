@@ -1,0 +1,27 @@
+---
+// src/layouts/Layout.astro
+import '../styles/global.css';
+import Navbar from '../components/Navbar.astro';
+
+interface Props {
+  title: string;
+}
+
+const { title } = Astro.props;
+---
+<!doctype html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="description" content="Portfolio Annur Hangga Prihadi" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="icon" type="image/png" href="/Rvn.png" />
+    <title>{title}</title>
+  </head>
+  <body class="bg-white text-gray-800 dark:bg-gray-900 dark:text-gray-200 font-sans transition-colors duration-300">
+    <Navbar />
+    <main>
+      <slot />
+    </main>
+  </body>
+</html>

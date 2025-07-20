@@ -1,0 +1,168 @@
+---
+// src/components/PlaygroundSection.astro (VERSI FINAL DENGAN PANAH DI BAWAH)
+import ProjectCard from './ProjectCard.astro';
+import { projects } from '../data/projects.js';
+import 'swiper/css';
+import 'swiper/css/navigation';
+import 'swiper/css/effect-coverflow';
+---
+<section id="playground" class="py-24 overflow-hidden">
+  <div class="container mx-auto">
+    <div class="text-center mb-12 px-4">
+      <h2 class="text-4xl font-bold">The Playground</h2>
+      <p class="text-purple-400 mt-2">Where ideas come to life. Choose a category to explore.</p>
+    </div>
+
+    <div id="filter-buttons" class="flex justify-center space-x-4 mb-12">
+      <button class="filter-btn active" data-filter="All">All</button>
+      <button class="filter-btn" data-filter="Mind">Mind</button>
+      <button class="filter-btn" data-filter="Hands">Hands</button>
+    </div>
+  </div>
+
+  <div class="swiper-container">
+    <div class="swiper">
+      <div class="swiper-wrapper">
+        {projects.map(project => (
+          <div class="swiper-slide" data-category={project.category}>
+            <ProjectCard
+              title={project.title}
+              description={project.description}
+              tags={project.tags}
+              imgSrc={project.imgSrc}
+              githubUrl={project.githubUrl}
+              liveUrl={project.liveUrl}
+            />
+          </div>
+        ))}
+      </div>
+    </div>
+  </div>
+
+  <div class="flex justify-center mt-8 space-x-4">
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
+  </div>
+  </section>
+
+<style>
+  .swiper-container {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    position: relative;
+  }
+  .swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 300px;
+    height: auto;
+    transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
+    opacity: 0.4;
+  }
+  .swiper-slide-active {
+    opacity: 1;
+    transform: scale(1.05);
+  }
+  .filter-btn {
+    @apply px-5 py-2 text-white font-semibold rounded-lg transition-all;
+  }
+  .filter-btn.active {
+    @apply bg-purple-600;
+  }
+  .filter-btn:not(.active) {
+    @apply bg-gray-700 hover:bg-gray-600;
+  }
+
+  /* ▼▼▼ CSS BARU UNTUK CUSTOM PANAH ▼▼▼ */
+  .swiper-button-prev,
+  .swiper-button-next {
+    position: static; /* Menghapus posisi absolut default */
+    width: 44px;
+    height: 44px;
+    margin-top: 0;
+    background-color: #374151; /* bg-gray-700 */
+    border-radius: 9999px; /* rounded-full */
+    color: #c4b5fd; /* text-purple-300 */
+  }
+
+  .swiper-button-prev:hover,
+  .swiper-button-next:hover {
+    background-color: #4b5563; /* bg-gray-600 */
+  }
+
+  .swiper-button-prev::after,
+  .swiper-button-next::after {
+    font-size: 20px; /* Membuat ikon panah lebih kecil */
+    font-weight: bold;
+  }
+  /* ▲▲▲ AKHIR DARI CSS BARU ▲▲▲ */
+
+</style>
+
+<script>
+  import Swiper from 'swiper';
+  import { Navigation, EffectCoverflow } from 'swiper/modules';
+
+  const swiper = new Swiper('.swiper', {
+    modules: [Navigation, EffectCoverflow],
+    effect: 'coverflow',
+    grabCursor: true,
+    centeredSlides: true,
+    slidesPerView: 'auto',
+    loop: true,
+    coverflowEffect: {
+      rotate: 0,
+      stretch: 0,
+      depth: 100,
+      modifier: 2,
+      slideShadows: false,
+    },
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+    },
+    breakpoints: {
+      768: { slidesPerView: 3 }
+    }
+  });
+
+  // --- LOGIKA FILTER DIMULAI DI SINI (VERSI AMAN) ---
+  const filterButtonsContainer = document.querySelector('#filter-buttons');
+  const slides = document.querySelectorAll('.swiper-slide');
+
+  // PERBAIKAN 1: Pastikan filterButtonsContainer tidak null sebelum menambahkan listener
+  if (filterButtonsContainer) {
+    filterButtonsContainer.addEventListener('click', (event) => {
+      // PERBAIKAN 2: Pastikan target adalah elemen HTML yang bisa kita periksa
+      if (!(event.target instanceof HTMLElement) || event.target.tagName !== 'BUTTON') {
+        return;
+      }
+      const target = event.target;
+
+      // PERBAIKAN 3: Cek dulu apakah ada tombol aktif sebelum menghapus kelasnya
+      const currentActiveButton = filterButtonsContainer.querySelector('.active');
+      if (currentActiveButton) {
+        currentActiveButton.classList.remove('active');
+      }
+      target.classList.add('active');
+
+      const filter = target.dataset.filter;
+
+      slides.forEach(slide => {
+        // Kita perlu pastikan slide juga merupakan HTMLElement untuk mengakses dataset
+        if (slide instanceof HTMLElement) {
+          const category = slide.dataset.category;
+          if (filter === 'All' || filter === category) {
+            slide.style.display = 'block';
+          } else {
+            slide.style.display = 'none';
+          }
+        }
+      });
+
+      swiper.update();
+      swiper.slideToLoop(0);
+    });
+  }
+</script>
