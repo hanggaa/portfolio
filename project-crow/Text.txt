@@ -1,0 +1,196 @@
+Founder & CEO
+
+AXHP Labs · Full-time
+
+Jul 2023 - Present · 2 yrs 6 mos
+
+Founded AXHP Labs as a venture builder to systematically research, develop, and launch transformative Web3 products. Operating at the intersection of blockchain technology and real-world business applications.
+
+KEY INITIATIVES:
+- Conducted comprehensive research on blockchain technology integration, resulting in two published papers on modern business models
+- Led research initiatives in advanced blockchain technologies: smart contract wallets, decentralized storage (Arweave), Layer 2 solutions, and zero-knowledge applications
+- Analyzed emerging trends in DeFi protocols and identified high-potential market opportunities
+- Successfully launched NoaSight as first product decentralized prediction market platform
+
+STRATEGIC ACHIEVEMENTS:
+- Established lab's operational framework ensuring sustainable growth and innovation
+- Recruited and shaped cross-functional team of 4+ professionals across blockchain development, product, and operations
+- Developed technical frameworks for enterprise blockchain adoption and security implementation
+- Evaluated multiple blockchain platforms for enterprise integration (Ethereum, SUI, Arweave, Layer 2 solutions)
+
+THOUGHT LEADERSHIP:
+- Authored influential reports on blockchain innovation and implementation strategies
+- Published research on supply chain transparency using Ethereum and Google Cloud Platform
+- Presented findings at industry conferences and webinars
+Company image: https://pdf4kb4xdfdr6wviasushsaqwcz2ufdhqdom44grbp52fag34qma.arweave.net/eMvFB5cZRx9aqASpI8gQsLOqFGeA3M5w0Qv7ooDb5Bg
+=======================================
+Founder & CTO
+
+NoaSight · Full-time
+
+Jul 2025 - Present · 6 mos
+
+Leading the technical vision and execution for NoaSight, a decentralized prediction market platform built on SUI blockchain the fastest-growing Layer-1 ecosystem in Web3.
+
+PLATFORM ACHIEVEMENTS (Pre-Seed Stage):
+- Engineered complete technology stack from ground zero to live testnet deployment
+- Generated 26,323.96 SUI in total trading volume with 325+ active traders
+- Created infrastructure supporting 100+ prediction markets and 10,503 predictions
+- Achieved 19,166.85 SUI in Total Value Locked (TVL)
+- Distributed 285 NFTs as user rewards and incentives
+
+TECHNICAL LEADERSHIP:
+- Architected scalable smart contract infrastructure on SUI blockchain leveraging Move programming language
+- Designed core prediction market mechanics inspired by Polymarket with optimizations for SUI's parallel transaction processing
+- Formulated technical security standards and conducted comprehensive audits
+- Supervised cross-functional team through full development lifecycle
+- Resolved critical architectural challenges for long-term scalability and security
+
+BUSINESS DEVELOPMENT:
+- Currently raising pre-seed funding round
+- Positioning NoaSight to capitalize on the $2.6B+ decentralized prediction market opportunity
+- Building strategic partnerships within the SUI ecosystem
+Company image: https://idhjdifuxixcwzxbe3dgq47r6dkw23uscv2i44bcmva2mnpudu6a.arweave.net/QM6RoLS6Litm4SbGaHPx8NVtbpIVdI5wImVBpjX0HTw
+=======================================
+Blockchain Analyst (Investment and Technology)
+
+Cloudsolutely Pte. Ltd. · Full-time
+
+Nov 2022 - Jun 2023 · 8 mos
+
+Singapore
+
+Executed high-impact investment strategies and technology implementation for cryptocurrency portfolio, focusing on emerging blockchain sectors and security infrastructure.
+
+INVESTMENT PERFORMANCE:
+- Devised and executed investment strategies in Layer 2 Ethereum, Decentralized Storage, and Zero-Knowledge protocols
+- Achieved 68% growth in company assets through strategic sector allocation and technical analysis
+- Identified and guided seed investments in four promising crypto projects: Circuit, Interswap, Aptos, and undisclosed fourth project
+- Conducted comprehensive due diligence combining technical architecture review and market analysis
+
+SECURITY INNOVATION:
+- Designed and implemented hybrid security architecture combining Multi-Party Computation (MPC) and Smart Contract multisig wallets
+- Enhanced security posture through elimination of single-key dependency compared to conventional seed phrase wallets
+- Migrated company treasury from traditional wallet infrastructure to institutional-grade security solution
+- Established security protocols and operational procedures for C-level asset management
+
+RESEARCH & ADVISORY:
+- Researched decentralized storage solutions (Arweave) and ZK protocols for internal operations
+- Analyzed DeFi protocols and market trends to inform investment thesis
+- Provided strategic advisory to C-level executives on emerging blockchain opportunities
+- Improved operational efficiency through blockchain technology integration
+Company image: https://37roh2ycssyfolt2pdu7qwxcv6moa55mflp3hcho2zhz6fjhb33a.arweave.net/3-Lj6wKUsFcuenjp-Frir5jgd6wq37OI7tZPnxUnDvY
+=======================================
+Cybersecurity Program Participant
+
+ASEAN Foundation
+
+Feb 2023 - Mar 2023 · 2 mos
+
+Jakarta, Indonesia
+
+- Completed intensive Microsoft-led cybersecurity skilling program, gaining advanced proficiency in securing operating systems and networks against evolving threats
+- Mastered risk assessment frameworks and strategic mitigation approaches applicable to blockchain infrastructure and Web3 security architecture
+- Applied cybersecurity principles to enhance security posture of blockchain projects
+Company image: https://kryysjgcyenhuujwx7jxoqgbt2flafmpbalzun5756bk5vki3sja.arweave.net/VHGJJMLBGnpRNr_Td0DBnoqwFY8IF5o3v--CrtVI3JI
+=======================================
+SAP Digital Empowerment Program Participant
+
+ASEAN Foundation
+
+May 2022 - Dec 2022 · 8 mos
+
+Jakarta, Indonesia · Remote
+
+- Selected for competitive 8-month SAP ASEAN Digital Empowerment program to enhance business acumen and technology expertise
+- Completed SAP S/4HANA – Scope and Business Processes certification, gaining deep expertise in enterprise resource planning (ERP) systems and business process optimization
+- Applied ERP knowledge to understand enterprise blockchain integration opportunities, informing later research on blockchain business models
+Company image: https://kryysjgcyenhuujwx7jxoqgbt2flafmpbalzun5756bk5vki3sja.arweave.net/VHGJJMLBGnpRNr_Td0DBnoqwFY8IF5o3v--CrtVI3JI
+=======================================
+Assistant Lecturer
+
+Universitas Trisakti  · Full-time
+
+Aug 2020 - Aug 2022 · 2 yrs 1 mo
+
+Jakarta, Indonesia
+
+Designed and delivered advanced curriculum across five core courses, bridging academic theory with real-world blockchain and technology applications.
+
+CURRICULUM DEVELOPMENT & TEACHING:
+- Created complex learning modules for Data Science & Analytics, Enterprise Architecture, Computer Networks, Business Process Accounting & Finance, and Computer Organization
+- Developed hands-on Data Science curriculum using Python and real-world business cases, achieving 90% student satisfaction rate
+- Designed Enterprise Architecture curriculum incorporating TOGAF framework and agile methodologies framework adopted by two other department faculties
+- Integrated low-level programming and CPU architecture concepts into Computer Organization course
+
+BLOCKCHAIN EDUCATION PIONEER:
+- Facilitated hands-on workshops for Ethereum development and smart contract programming
+- Integrated real-world cryptocurrency case studies into data analysis courses
+- Bridged academic theory with emerging Web3 industry practices
+- Mentored students on blockchain technology applications
+
+TEACHING INNOVATION:
+- Combined Cloud Computing (GCP) with data science projects for practical industry experience
+- Developed business process frameworks aligned with accounting and finance principles
+- Utilized Python programming for data visualization and statistical analysis
+- Created GitHub repository with practice materials and student projects
+Company image: https://rmwxmcs54gqax4ne4pf5sqb73nd7tf4j2jbectu6xm2iz74zmwtq.arweave.net/iy12Cl3hoAvxpOPL2UA_20f5l4nSQkFOnrs0jP-ZZac
+=======================================
+Data Analyst & Team Leader
+
+ASEAN Foundation
+
+Feb 2020 - Aug 2021 · 1 yr 7 mos
+
+Jakarta, Indonesia · Remote
+
+Led ASEAN Data Science Explorer program team conducting comprehensive analysis on SDG 12 (Responsible Consumption and Production) addressing agricultural challenges across ASEAN.
+
+ANALYTICAL ACHIEVEMENTS:
+- Conducted thorough comparative analysis of agricultural challenges in Indonesia and Vietnam
+- Performed in-depth statistical analysis identifying key trends and opportunities in agricultural sector
+- Developed data-driven recommendations projected to improve farmer livelihood indicators by 10%
+- Created comprehensive micro-strategies aimed at enhancing long-term viability of Indonesian farmers
+
+STRATEGIC IMPACT:
+- Delivered strategic insights to stakeholders through detailed reports and presentations
+- Analyzed sustainability initiatives within Responsible Consumption and Production framework
+- Identified intervention points for improving agricultural supply chains and farmer outcomes
+- Contributed to policy recommendations for ASEAN agricultural development
+
+TEAM LEADERSHIP:
+- Led team through intensive data science program from initiation to final presentation
+- Coordinated research efforts across multiple countries and datasets
+- Managed project deliverables and maintained quality standards
+- Presented findings to ASEAN Foundation leadership and program stakeholders
+Company image: https://kryysjgcyenhuujwx7jxoqgbt2flafmpbalzun5756bk5vki3sja.arweave.net/VHGJJMLBGnpRNr_Td0DBnoqwFY8IF5o3v--CrtVI3JI
+=======================================
+Cloud Engineer & Project Lead
+
+Bangkit Academy led by Google, Tokopedia, Gojek, & Traveloka
+
+Feb 2021 - Jul 2021 · 6 mos
+
+Jakarta, Indonesia
+
+Led cross-functional capstone project developing machine learning solution for agricultural price prediction on Google Cloud Platform.
+
+PROJECT OUTCOMES:
+- Achieved 84% accuracy in price forecasting using Holt-Winters and ARIMA time series models
+- Delivered functional tool enabling farmers to anticipate market prices and optimize planning
+- Secured project extension and additional funding through compelling stakeholder presentation
+- Demonstrated measurable impact on agricultural decision-making processes
+
+TECHNICAL EXECUTION:
+- Architected end-to-end solution on Google Cloud Platform integrating multiple GCP services
+- Implemented advanced statistical models using R programming language
+- Designed scalable cloud infrastructure for data processing and model deployment
+- Conducted comprehensive time series analysis on agricultural commodity prices
+
+LEADERSHIP:
+- Led cross-functional team of 6 members across technical and non-technical disciplines
+- Managed project timeline, deliverables, and stakeholder communications
+- Coordinated with senior stakeholders and presented findings to leadership
+- Developed micro and macro strategies to support long-term viability of Indonesian farmers
+Company image: https://hzijudtpbcjcmlg4wdoglbin3gaxg7ylkkqnneadgtx5wbrnfjsq.arweave.net/PlCaDm8IkiYs3LDcZYUN2YFzfwtSoNaQAzTv2wYtKmU
+=======================================
