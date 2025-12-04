@@ -4,11 +4,11 @@ import { certificates } from '../data/certificates.js';
 import 'swiper/css';
 import 'swiper/css/navigation';
 ---
-<section id="certificates" class="py-24 bg-white dark:bg-gray-800 overflow-hidden transition-colors duration-300">
+<section id="certificates" class="py-24 bg-brand-surface dark:bg-brand-surface overflow-hidden transition-colors duration-300">
   <div class="container mx-auto px-4">
     <div class="text-center mb-16">
       <h2 class="text-4xl font-bold">Certifications & Achievements</h2>
-      <p class="text-purple-500 dark:text-purple-400 mt-2">A showcase of my validated skills and expertise.</p>
+      <p class="text-brand-primary dark:text-brand-primary mt-2">A showcase of my validated skills and expertise.</p>
     </div>
   </div>
   
@@ -17,20 +17,20 @@ import 'swiper/css/navigation';
       {certificates.map(cert => (
         <div class="swiper-slide">
           <a href={cert.credentialUrl} target="_blank" rel="noopener noreferrer" class="group block h-full">
-            <div class="bg-gray-50 dark:bg-gray-900 rounded-lg overflow-hidden border border-gray-200 dark:border-gray-700 h-full flex flex-col transition-colors duration-300">
+            <div class="bg-brand-background dark:bg-brand-background rounded-lg overflow-hidden border border-brand-outline dark:border-brand-outline h-full flex flex-col transition-colors duration-300">
               <div class="overflow-hidden p-4">
                 <img src={cert.imgSrc} alt={cert.title} class="w-full h-48 object-contain transition-transform duration-300 group-hover:scale-105" />
               </div>
-              <div class="p-4 mt-auto border-t border-gray-200 dark:border-gray-700 transition-colors duration-300">
-                <h3 class="text-sm font-semibold text-gray-700 dark:text-gray-200 text-center transition-colors duration-300" title={cert.title}>{cert.title}</h3>
+              <div class="p-4 mt-auto border-t border-brand-outline dark:border-brand-outline transition-colors duration-300">
+                <h3 class="text-sm font-semibold text-brand-text-primary dark:text-brand-text-primary text-center transition-colors duration-300" title={cert.title}>{cert.title}</h3>
               </div>
             </div>
           </a>
         </div>
       ))}
     </div>
-    <div class="swiper-button-prev text-gray-800 dark:text-white transition-colors duration-300 hidden md:flex"></div>
-    <div class="swiper-button-next text-gray-800 dark:text-white transition-colors duration-300 hidden md:flex"></div>
+    <div class="swiper-button-prev text-brand-text-primary dark:text-brand-text-primary transition-colors duration-300 hidden md:flex"></div>
+    <div class="swiper-button-next text-brand-text-primary dark:text-brand-text-primary transition-colors duration-300 hidden md:flex"></div>
     </div>
 </section>
 

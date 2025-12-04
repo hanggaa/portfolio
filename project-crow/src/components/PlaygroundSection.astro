@@ -10,7 +10,7 @@ import 'swiper/css/effect-coverflow';
   <div class="container mx-auto">
     <div class="text-center mb-12 px-4">
       <h2 class="text-4xl font-bold">The Playground</h2>
-      <p class="text-purple-400 mt-2">Where ideas come to life. Choose a category to explore.</p>
+      <p class="text-brand-primary mt-2">Where ideas come to life. Choose a category to explore.</p>
     </div>
 
     <div id="filter-buttons" class="flex justify-center space-x-4 mb-12">
@@ -68,10 +68,10 @@ import 'swiper/css/effect-coverflow';
     @apply px-5 py-2 text-white font-semibold rounded-lg transition-all;
   }
   .filter-btn.active {
-    @apply bg-purple-600;
+    @apply bg-brand-primary;
   }
   .filter-btn:not(.active) {
-    @apply bg-gray-700 hover:bg-gray-600;
+    @apply bg-brand-surface hover:bg-brand-outline;
   }
 
   /* ▼▼▼ CSS BARU UNTUK CUSTOM PANAH ▼▼▼ */
@@ -81,14 +81,14 @@ import 'swiper/css/effect-coverflow';
     width: 44px;
     height: 44px;
     margin-top: 0;
-    background-color: #374151; /* bg-gray-700 */
+    background-color: #1A1822; /* bg-brand-surface */
     border-radius: 9999px; /* rounded-full */
-    color: #c4b5fd; /* text-purple-300 */
+    color: #A855F7; /* text-brand-primary */
   }
 
   .swiper-button-prev:hover,
   .swiper-button-next:hover {
-    background-color: #4b5563; /* bg-gray-600 */
+    background-color: #332E44; /* bg-brand-outline */
   }
 
   .swiper-button-prev::after,

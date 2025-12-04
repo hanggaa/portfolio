@@ -3,5 +3,5 @@
 @tailwind utilities;
 
 .skill-tag {
-  @apply bg-gray-200 text-purple-700 dark:bg-gray-800 dark:text-purple-300 text-sm font-medium px-3 py-1 rounded-full;
+  @apply bg-brand-surface text-brand-primary dark:bg-brand-surface dark:text-brand-primary text-sm font-medium px-3 py-1 rounded-full;
 }
