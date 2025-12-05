@@ -61,9 +61,33 @@ export const experiences = [
     media: [
       {
         type: "image",
-        companyimage: "https://idhjdifuxixcwzxbe3dgq47r6dkw23uscv2i44bcmva2mnpudu6a.arweave.net/QM6RoLS6Litm4SbGaHPx8NVtbpIVdI5wImVBpjX0HTw",
-        url: "https://idhjdifuxixcwzxbe3dgq47r6dkw23uscv2i44bcmva2mnpudu6a.arweave.net/QM6RoLS6Litm4SbGaHPx8NVtbpIVdI5wImVBpjX0HTw",
-        title: "NoaSight Platform"
+        companyimage: "https://f7ogmqmq5gbpgr4ylvqwbjgx3niiwqhwy6dvx75gxqwwfbp3uydq.arweave.net/L9xmQZDpgvNHmF1hYKTX21CLQPbHh1v_prwtYoX7pgc",
+        url: "https://sui.noasight.xyz/",
+        title: "Noa Market"
+      },
+      {
+        type: "image",
+        companyimage: "https://b2h3m6msxo327f2aqvbmlpf45swd4zfjgoq5t2g3ksnh2go5keuq.arweave.net/Do-2eZK7t6-XQIVCxby87Kw-ZKkzodno21SafRndUSk",
+        url: "https://oraclesui.noasight.xyz/",
+        title: "Noa Oracle"
+      },
+      {
+        type: "image",
+        companyimage: "https://ur3jbhqq4uenhpmu3rxrkatezv2qfse6bhs2vppqmnxfvbzy7r2a.arweave.net/pHaQnhDlCNO9lNxvFQJkzXUCyJ4J5aq98GNuWoc4_HQ",
+        url: "https://sui.noasight.xyz/#/dao",
+        title: "Noa DAO"
+      },
+      {
+        type: "image",
+        companyimage: "https://jo7xb3r7jluvya2kkbq7vkuveu2vtwsb74bvd5xoqztb726yozaq.arweave.net/S79w7j9K6VwDSlBh-qqVJTVZ2kH_A1H27oZmH-vYdkE",
+        url: "https://analytics.noasight.xyz/",
+        title: "Noa Analytics"
+      },
+      {
+        type: "image",
+        companyimage: "https://prtjsfatq7dnl7to742brxrcnmcuhzswh5nkacthrwm6hzukhsoa.arweave.net/fGaZFBOHxtX-bv80GN4iawVD5lY_WqAKZ42Z4-aKPJw",
+        url: "https://presentation.noasight.xyz/",
+        title: "Noa Pitch Deck"
       }
     ],
     details: {
@@ -100,9 +124,15 @@ export const experiences = [
     media: [
       {
         type: "image",
-        companyimage: "https://37roh2ycssyfolt2pdu7qwxcv6moa55mflp3hcho2zhz6fjhb33a.arweave.net/3-Lj6wKUsFcuenjp-Frir5jgd6wq37OI7tZPnxUnDvY",
-        url: "https://37roh2ycssyfolt2pdu7qwxcv6moa55mflp3hcho2zhz6fjhb33a.arweave.net/3-Lj6wKUsFcuenjp-Frir5jgd6wq37OI7tZPnxUnDvY",
-        title: "Cloudsolutely"
+        companyimage: "https://bqzf5kwlxzaipwlcolemjv4a7kssjpyymodsjhjg5u4ytmuyefyq.arweave.net/DDJeqsu-QIfZYnLIxNeA-qUkvxhjhySdJu05ibKYIXE",
+        url: "https://hfpcp33rve4z6xae3lpedgx6uwvvhbu346nap3qet4l47sgxe4fa.arweave.net/OV4n73GpOZ9cBNreQZr-patThpvnmgfuBJ8Xz8jXJwo",
+        title: "Polygon Research"
+      },
+      {
+        type: "image",
+        companyimage: "https://quq6ne3jkcnncc7m646zhcnd6zolt4q2lohlgb5yznlcdp5m3swa.arweave.net/hSHmk2lQmtEL7Pc9k4mj9ly58hpbjrMHuMtWIb-s3Kw",
+        url: "https://udjoydj3cxxtzle6qh2ybpmi653v22ncrc37hkewrfou74phmh4a.arweave.net/oNLsDTsV7zysnoH1gL2I93ddaaKIt_OololdT_HnYfg",
+        title: "Decentralized Storage Research"
       }
     ],
     details: {
@@ -138,9 +168,9 @@ export const experiences = [
     media: [
       {
         type: "image",
-        companyimage: "https://rmwxmcs54gqax4ne4pf5sqb73nd7tf4j2jbectu6xm2iz74zmwtq.arweave.net/iy12Cl3hoAvxpOPL2UA_20f5l4nSQkFOnrs0jP-ZZac",
-        url: "https://rmwxmcs54gqax4ne4pf5sqb73nd7tf4j2jbectu6xm2iz74zmwtq.arweave.net/iy12Cl3hoAvxpOPL2UA_20f5l4nSQkFOnrs0jP-ZZac",
-        title: "Universitas Trisakti"
+        companyimage: "https://5ve6db4u2aassih3tmhex4seaaqdsptkd6y23gycsp2bavegrquq.arweave.net/7Unhh5TQASkg-5sOS_JEACA5Pmofsa2bApP0EFSGjCk",
+        url: "https://github.com/hanggaa/Practice-Journals",
+        title: "Lecture Materials"
       }
     ],
     details: {
@@ -176,10 +206,22 @@ export const experiences = [
     media: [
       {
         type: "image",
-        companyimage: "https://kryysjgcyenhuujwx7jxoqgbt2flafmpbalzun5756bk5vki3sja.arweave.net/VHGJJMLBGnpRNr_Td0DBnoqwFY8IF5o3v--CrtVI3JI",
-        url: "https://kryysjgcyenhuujwx7jxoqgbt2flafmpbalzun5756bk5vki3sja.arweave.net/VHGJJMLBGnpRNr_Td0DBnoqwFY8IF5o3v--CrtVI3JI",
-        title: "ASEAN Foundation Data Science"
-      }
+        companyimage: "https://gav4gsbbmr3xy5nksmq4dxieul6nbgwvjiomy7ldk4jigmdugjma.arweave.net/MCvDSCFkd3x1qpMhwd0EovzQmtVKHMx9Y1cSgzB0Mlg",
+        url: "https://v36aaa6kppu3de6d57j67bsrxmqulejww57ggoy6yyewvbhvdj7q.arweave.net/rvwAA8p76bGTw-_T74ZRuyFFkTa3fmM7HsYJaoT1Gn8",
+        title: "Pitch Deck"
+      },
+      {
+        type: "image",
+        companyimage: "https://74jfoyhncc2cob3u4bvqgpm66ekbxvkazqz2unn57y6xssoc5xmq.arweave.net/_xJXYO0QtCcHdOBrAz2e8RQb1UDMM6o1vf49eUnC7dk",
+        url: "https://74jfoyhncc2cob3u4bvqgpm66ekbxvkazqz2unn57y6xssoc5xmq.arweave.net/_xJXYO0QtCcHdOBrAz2e8RQb1UDMM6o1vf49eUnC7dk",
+        title: "Certificate"
+      },
+      {
+        type: "image",
+        companyimage: "https://jmsur5moyngfoj4cscorq7d6wtomcvdvjo3pivezyjymviqigdza.arweave.net/SyVI9Y7DTFcngpCdGHx-tNzBVHVLtvRUmcJwyqIIMPI",
+        url: "https://jmsur5moyngfoj4cscorq7d6wtomcvdvjo3pivezyjymviqigdza.arweave.net/SyVI9Y7DTFcngpCdGHx-tNzBVHVLtvRUmcJwyqIIMPI",
+        title: "Certificate"
+      },
     ],
     details: {
       analyticalAchievements: [
@@ -214,9 +256,15 @@ export const experiences = [
     media: [
       {
         type: "image",
-        companyimage: "https://hzijudtpbcjcmlg4wdoglbin3gaxg7ylkkqnneadgtx5wbrnfjsq.arweave.net/PlCaDm8IkiYs3LDcZYUN2YFzfwtSoNaQAzTv2wYtKmU",
-        url: "https://hzijudtpbcjcmlg4wdoglbin3gaxg7ylkkqnneadgtx5wbrnfjsq.arweave.net/PlCaDm8IkiYs3LDcZYUN2YFzfwtSoNaQAzTv2wYtKmU",
-        title: "Bangkit Academy"
+        companyimage: "https://77vdrfxnhy47fq4rfslhfngnbj56wilhq5lbjfem5lgg53yygqcq.arweave.net/_-o4lu0-OfLDkSyWcrTNCnvrIWeHVhSUjOrMbu8YNAU",
+        url: "https://github.com/hanggaa/Forecasting-Using-R-Shiny",
+        title: "Dummy Repository"
+      },
+      {
+        type: "image",
+        companyimage: "https://kr24njwhu6rullzcdq33mxyjmqfp64zs64w6g432pnuz6lkomwvq.arweave.net/VHXGpseno0WvIhw3tl8JZAr_czL3LeNzentpny1OZas",
+        url: "https://kr24njwhu6rullzcdq33mxyjmqfp64zs64w6g432pnuz6lkomwvq.arweave.net/VHXGpseno0WvIhw3tl8JZAr_czL3LeNzentpny1OZas",
+        title: "Certificate"
       }
     ],
     details: {
