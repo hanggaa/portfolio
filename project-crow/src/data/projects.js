@@ -49,6 +49,22 @@ export const projects = [
     category: "Mind"
   },
   {
+    title: "Polygon Under the Hood",
+    description: "Polygon Under the Hood: A Deep Dive into Polygon's Architecture and Ecosystem",
+    tags: ["Polygon", "EVM", "Technical"],
+    imgSrc: "https://bqzf5kwlxzaipwlcolemjv4a7kssjpyymodsjhjg5u4ytmuyefyq.arweave.net/DDJeqsu-QIfZYnLIxNeA-qUkvxhjhySdJu05ibKYIXE",
+    liveUrl: "https://hfpcp33rve4z6xae3lpedgx6uwvvhbu346nap3qet4l47sgxe4fa.arweave.net/OV4n73GpOZ9cBNreQZr-patThpvnmgfuBJ8Xz8jXJwo",
+    category: "Mind"
+  },
+  {
+    title: "Decentralized Storage 101",
+    description: "Decentralized Storage 101: A Comprehensive Guide to Decentralized Storage Solutions",
+    tags: ["Arweave", "Decentralized Storage", "Technical"],
+    imgSrc: "https://quq6ne3jkcnncc7m646zhcnd6zolt4q2lohlgb5yznlcdp5m3swa.arweave.net/hSHmk2lQmtEL7Pc9k4mj9ly58hpbjrMHuMtWIb-s3Kw",
+    liveUrl: "https://udjoydj3cxxtzle6qh2ybpmi653v22ncrc37hkewrfou74phmh4a.arweave.net/oNLsDTsV7zysnoH1gL2I93ddaaKIt_OololdT_HnYfg",
+    category: "Mind"
+  },
+  {
     title: "Noa Oracle",
     description: "Noa Oracle: Our Economically-Secured, Decentralized Resolution Engine",
     tags: ["Prediction Markets", "Oracle", "SUI", "Resolver"],
