@@ -1,162 +1,163 @@
 ---
-// src/components/PlaygroundSection.astro (VERSI FINAL DENGAN PANAH DI BAWAH)
-import ProjectCard from './ProjectCard.astro';
+// src/components/PlaygroundSection.astro (INTERACTIVE MASTER-DETAIL LAYOUT)
 import { projects } from '../data/projects.js';
-import 'swiper/css';
-import 'swiper/css/navigation';
-import 'swiper/css/effect-coverflow';
 ---
-<section id="playground" class="py-24 overflow-hidden">
-  <div class="container mx-auto">
-    <div class="text-center mb-12 px-4">
-      <h2 class="text-4xl font-bold">Selected Projects</h2>
-      <p class="text-brand-primary mt-2">Where strategy meets execution.</p>
+<section id="playground" class="py-24 bg-brand-background dark:bg-brand-bg px-4">
+  <div class="container mx-auto max-w-6xl">
+    <div class="text-center mb-12 animate-on-scroll">
+      <h2 class="text-4xl md:text-5xl font-bold mb-4">Selected Projects</h2>
+      <p class="text-lg text-brand-text-secondary dark:text-brand-text-secondary max-w-2xl mx-auto">
+        Where strategic vision meets technical execution.
+      </p>
     </div>
-  </div>
 
-  <div class="swiper-container">
-    <div class="swiper">
-      <div class="swiper-wrapper">
-        {projects.map(project => (
-          <div class="swiper-slide" data-category={project.category}>
-            <ProjectCard
-              title={project.title}
-              description={project.description}
-              tags={project.tags}
-              imgSrc={project.imgSrc}
-              githubUrl={project.githubUrl}
-              liveUrl={project.liveUrl}
-            />
+    <!-- Desktop Interactive Layout (Hidden on Mobile) -->
+    <div class="hidden lg:flex gap-8 h-[600px] animate-on-scroll delay-200">
+      
+      <!-- Left Panel: Project List -->
+      <div class="w-1/3 flex flex-col gap-2 overflow-y-auto pr-2 custom-scrollbar">
+        {projects.map((project, index) => (
+          <button 
+            class={`project-trigger text-left p-5 rounded-xl border transition-all duration-300 group hover:border-brand-primary/50 hover:bg-brand-surface/50 ${index === 0 ? 'active border-brand-primary bg-brand-surface shadow-md' : 'border-transparent'}`}
+            data-index={index}
+          >
+            <h3 class={`text-lg font-bold mb-1 group-hover:text-brand-primary transition-colors ${index === 0 ? 'text-brand-primary' : 'text-brand-text-primary'}`}>
+              {project.title}
+            </h3>
+            <p class="text-sm text-brand-text-secondary line-clamp-2 opacity-80">
+              {project.description}
+            </p>
+          </button>
+        ))}
+      </div>
+
+      <!-- Right Panel: Preview Area -->
+      <div class="w-2/3 relative bg-brand-surface rounded-2xl border border-brand-outline overflow-hidden shadow-2xl">
+        {projects.map((project, index) => (
+          <div 
+            class={`project-preview absolute inset-0 flex flex-col transition-opacity duration-500 ${index === 0 ? 'opacity-100 z-10' : 'opacity-0 z-0 pointer-events-none'}`}
+            data-index={index}
+          >
+            <!-- Image Area -->
+            <div class="h-3/5 w-full bg-brand-background relative overflow-hidden group">
+              <img 
+                src={project.imgSrc} 
+                alt={project.title} 
+                class="w-full h-full object-cover object-top transition-transform duration-700 group-hover:scale-105"
+              />
+              <div class="absolute inset-0 bg-gradient-to-t from-brand-surface to-transparent opacity-60"></div>
+            </div>
+
+            <!-- Content Area -->
+            <div class="h-2/5 p-8 flex flex-col justify-between bg-brand-surface relative">
+              <div>
+                <div class="flex flex-wrap gap-2 mb-4">
+                  {project.tags.map(tag => (
+                    <span class="px-3 py-1 text-xs font-medium rounded-full bg-brand-background border border-brand-outline text-brand-primary">
+                      {tag}
+                    </span>
+                  ))}
+                </div>
+                <h3 class="text-2xl font-bold mb-2 text-brand-text-primary">{project.title}</h3>
+                <p class="text-brand-text-secondary">{project.description}</p>
+              </div>
+
+              <div class="mt-4 flex gap-4">
+                {project.liveUrl && (
+                  <a href={project.liveUrl} target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 px-5 py-2.5 bg-brand-primary text-white rounded-lg hover:bg-brand-secondary transition-colors font-medium text-sm">
+                    Visit Platform
+                    <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path></svg>
+                  </a>
+                )}
+              </div>
+            </div>
           </div>
         ))}
       </div>
     </div>
-  </div>
 
-  <div class="flex justify-center mt-8 space-x-4">
-    <div class="swiper-button-prev"></div>
-    <div class="swiper-button-next"></div>
+    <!-- Mobile/Tablet Layout (Compact Cards) -->
+    <div class="lg:hidden flex flex-col gap-6 animate-on-scroll delay-200">
+      {projects.map((project) => (
+        <div class="bg-brand-surface rounded-xl border border-brand-outline overflow-hidden shadow-sm">
+          <div class="flex flex-col sm:flex-row">
+            <div class="sm:w-1/3 h-48 sm:h-auto relative">
+              <img src={project.imgSrc} alt={project.title} class="w-full h-full object-cover" />
+            </div>
+            <div class="p-6 sm:w-2/3 flex flex-col justify-center">
+              <h3 class="text-xl font-bold mb-2 text-brand-text-primary">{project.title}</h3>
+              <p class="text-sm text-brand-text-secondary mb-4 line-clamp-2">{project.description}</p>
+              <div class="flex flex-wrap gap-2 mb-4">
+                {project.tags.slice(0, 3).map(tag => (
+                  <span class="text-xs px-2 py-1 bg-brand-background rounded text-brand-text-secondary">{tag}</span>
+                ))}
+              </div>
+              {project.liveUrl && (
+                <a href={project.liveUrl} target="_blank" class="text-brand-primary text-sm font-semibold hover:underline">
+                  View Project &rarr;
+                </a>
+              )}
+            </div>
+          </div>
+        </div>
+      ))}
+    </div>
+
   </div>
-  </section>
+</section>
 
 <style>
-  .swiper-container {
-    width: 100%;
-    padding-top: 50px;
-    padding-bottom: 50px;
-    position: relative;
+  .custom-scrollbar::-webkit-scrollbar {
+    width: 4px;
   }
-  .swiper-slide {
-    background-position: center;
-    background-size: cover;
-    width: 300px;
-    height: auto;
-    transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
-    opacity: 0.4;
+  .custom-scrollbar::-webkit-scrollbar-track {
+    background: transparent;
   }
-  .swiper-slide-active {
-    opacity: 1;
-    transform: scale(1.05);
+  .custom-scrollbar::-webkit-scrollbar-thumb {
+    background-color: theme('colors.brand-outline');
+    border-radius: 4px;
   }
-  .filter-btn {
-    @apply px-5 py-2 text-white font-semibold rounded-lg transition-all;
-  }
-  .filter-btn.active {
-    @apply bg-brand-primary;
-  }
-  .filter-btn:not(.active) {
-    @apply bg-brand-surface hover:bg-brand-outline;
-  }
-
-  /* ▼▼▼ CSS BARU UNTUK CUSTOM PANAH ▼▼▼ */
-  .swiper-button-prev,
-  .swiper-button-next {
-    position: static; /* Menghapus posisi absolut default */
-    width: 44px;
-    height: 44px;
-    margin-top: 0;
-    background-color: rgb(26 24 34); /* bg-brand-surface */
-    border-radius: 9999px; /* rounded-full */
-    color: rgb(168 85 247); /* text-brand-primary */
-  }
-
-  .swiper-button-prev:hover,
-  .swiper-button-next:hover {
-    background-color: rgb(51 46 68); /* bg-brand-outline */
-  }
-
-  .swiper-button-prev::after,
-  .swiper-button-next::after {
-    font-size: 20px; /* Membuat ikon panah lebih kecil */
-    font-weight: bold;
-  }
-  /* ▲▲▲ AKHIR DARI CSS BARU ▲▲▲ */
-
 </style>
 
 <script>
-  import Swiper from 'swiper';
-  import { Navigation, EffectCoverflow } from 'swiper/modules';
+  // Script untuk menangani interaksi Desktop
+  const triggers = document.querySelectorAll('.project-trigger');
+  const previews = document.querySelectorAll('.project-preview');
 
-  const swiper = new Swiper('.swiper', {
-    modules: [Navigation, EffectCoverflow],
-    effect: 'coverflow',
-    grabCursor: true,
-    centeredSlides: true,
-    slidesPerView: 'auto',
-    loop: true,
-    coverflowEffect: {
-      rotate: 0,
-      stretch: 0,
-      depth: 100,
-      modifier: 2,
-      slideShadows: false,
-    },
-    navigation: {
-      nextEl: '.swiper-button-next',
-      prevEl: '.swiper-button-prev',
-    },
-    breakpoints: {
-      768: { slidesPerView: 3 }
-    }
-  });
-
-  // --- LOGIKA FILTER DIMULAI DI SINI (VERSI AMAN) ---
-  const filterButtonsContainer = document.querySelector('#filter-buttons');
-  const slides = document.querySelectorAll('.swiper-slide');
-
-  // PERBAIKAN 1: Pastikan filterButtonsContainer tidak null sebelum menambahkan listener
-  if (filterButtonsContainer) {
-    filterButtonsContainer.addEventListener('click', (event) => {
-      // PERBAIKAN 2: Pastikan target adalah elemen HTML yang bisa kita periksa
-      if (!(event.target instanceof HTMLElement) || event.target.tagName !== 'BUTTON') {
-        return;
-      }
-      const target = event.target;
-
-      // PERBAIKAN 3: Cek dulu apakah ada tombol aktif sebelum menghapus kelasnya
-      const currentActiveButton = filterButtonsContainer.querySelector('.active');
-      if (currentActiveButton) {
-        currentActiveButton.classList.remove('active');
-      }
-      target.classList.add('active');
-
-      const filter = target.dataset.filter;
-
-      slides.forEach(slide => {
-        // Kita perlu pastikan slide juga merupakan HTMLElement untuk mengakses dataset
-        if (slide instanceof HTMLElement) {
-          const category = slide.dataset.category;
-          if (filter === 'All' || filter === category) {
-            slide.style.display = 'block';
-          } else {
-            slide.style.display = 'none';
-          }
+  triggers.forEach(trigger => {
+    trigger.addEventListener('click', () => { // Bisa diganti 'mouseenter' untuk hover effect
+      // Reset all triggers
+      triggers.forEach(t => {
+        t.classList.remove('active', 'border-brand-primary', 'bg-brand-surface', 'shadow-md');
+        t.classList.add('border-transparent');
+        const title = t.querySelector('h3');
+        if (title) {
+            title.classList.remove('text-brand-primary');
+            title.classList.add('text-brand-text-primary');
         }
       });
 
-      swiper.update();
-      swiper.slideToLoop(0);
+      // Activate clicked trigger
+      trigger.classList.remove('border-transparent');
+      trigger.classList.add('active', 'border-brand-primary', 'bg-brand-surface', 'shadow-md');
+      const activeTitle = trigger.querySelector('h3');
+      if (activeTitle) {
+          activeTitle.classList.remove('text-brand-text-primary');
+          activeTitle.classList.add('text-brand-primary');
+      }
+
+      // Show corresponding preview
+      const index = trigger.getAttribute('data-index');
+      previews.forEach(p => {
+        p.classList.add('opacity-0', 'z-0', 'pointer-events-none');
+        p.classList.remove('opacity-100', 'z-10');
+      });
+      
+      const activePreview = document.querySelector(`.project-preview[data-index="${index}"]`);
+      if (activePreview) {
+        activePreview.classList.remove('opacity-0', 'z-0', 'pointer-events-none');
+        activePreview.classList.add('opacity-100', 'z-10');
+      }
     });
-  }
+  });
 </script>

@@ -1,0 +1,113 @@
+Headline
+Product Lead | Technical Product Manager | Fintech & Data Strategy | 0-to-1 Product Growth
+
+About
+I am a Product Leader with 4 years of experience building high-performance digital platforms from 0-to-1. My expertise lies in bridging the gap between Business Strategy, Data Analysis, and Complex System Architecture.
+
+As Product Lead for NoaSight, I architected a real-time transaction platform that scaled to handle 10,000+ operations and achieved $42K+ in monthly transaction volume. I led the technical roadmap, designing core matching engines and liquidity systems that prioritize speed and security for 300+ active traders.
+
+Previously, I managed a $1M+ corporate asset portfolio, using SQL/Python to analyze market trends and drive 68% YoY growth. I combine technical fluency (System Architecture, Cloud, AI) with rigorous data analysis to build products that are scalable, profitable, and user-centric.
+
+CORE COMPETENCIES
+Product Strategy: 0-to-1 Lifecycle, Agile/Scrum, Roadmap Planning, Go-to-Market.
+Data & Analytics: SQL, Python, Product Analytics, Financial Modeling, A/B Testing.
+Technical Stack: System Architecture, API Integrations, Microservices, Cloud Infrastructure (GCP).
+
+Top skills
+Top skills
+Product Management • Product Strategy • User Acceptance Testing • SQL • Agile Methodologies
+
+Featured
+NoaSight Trading Platform
+A high-frequency prediction market platform built on SUI. Architected for speed, scaling to $42k+ volume and 10k+ transactions.
+View https://www.noasight.xyz/
+
+Market Engine Architecture
+The core matching engine and settlement logic. Designed for economic sustainability and parallel transaction execution
+View https://sui.noasight.xyz/
+
+Noa Analytics Dashboard
+Real-time data visualization suite tracking user retention and liquidity. Monitors 26k+ SUI volume and 19k+ TVL across markets.
+View https://analytics.noasight.xyz/
+
+Decentralized Oracle System
+A robust oracle framework ensuring data integrity and uptime for prediction markets using automated SUI smart contracts.
+View https://oraclesui.noasight.xyz/
+
+Governance Framework (DAO)
+A merit-based governance model designed to manage market creation parameters and community dispute resolution.
+View https://sui.noasight.xyz/dao
+
+Decentralized Storage Systems
+An exploration of IPFS and Arweave technologies for secure, permanent data storage solutions.
+View https://quq6ne3jkcnncc7m646zhcnd6zolt4q2lohlgb5yznlcdp5m3swa.arweave.net/hSHmk2lQmtEL7Pc9k4mj9ly58hpbjrMHuMtWIb-s3Kw
+
+Scaling Infrastructure (Polygon)
+A technical deep dive into Polygon's EVM architecture and sidechain scaling solutions.
+View https://bqzf5kwlxzaipwlcolemjv4a7kssjpyymodsjhjg5u4ytmuyefyq.arweave.net/DDJeqsu-QIfZYnLIxNeA-qUkvxhjhySdJu05ibKYIXE
+
+Future Business Architectures
+An analysis of how Smart Contract Wallets and Decentralized Storage are revolutionizing business logic and asset custody.
+View https://z5nkwytitggu2s4uj25mbpws577s4fd2gxklvku5kmifrnq4wrpq.arweave.net/z1qrYmiZjU1LlE66wL7S7_8uFHo11LqqnVMQWLYctF8
+
+Enterprise Blockchain Models
+Research on integrating Distributed Ledger Technology with Google Cloud Platform for supply chain transparency.
+View https://63eocicwztyjyi35q4q3bt3irq6etfj7rbghq4ac5w3eowaa5qea.arweave.net/9sjhIFbM8JwjfYchsM9ojDxJlT-ITHhwAu22R1gA7Ag
+
+Experience
+Product Lead
+Product Lead
+NoaSight · Full-timeNoaSight · Full-time
+Jul 2023 - Present · 2 yrs 7 mosJul 2023 to Present · 2 yrs 7 mos
+Leading the end-to-end product strategy and development of a high-performance fintech platform from 0-to-1.
+- Product Strategy & Launch: Defined the roadmap and executed a GTM strategy that acquired 300+ active users and achieved $42K+ in Monthly Gross Transaction Value (GTV).
+- Technical Leadership: Architected the platform’s core matching engine and settlement layer, translating complex business requirements into detailed technical specifications (API & Microservices) for the engineering team.
+- Scalable Architecture: Conducted feasibility studies on high-performance distributed database technologies to select a tech stack optimized for speed and security.
+- Agile Management: Managed a cross-functional squad of 4 (Engineering, Design, Ops) to deliver weekly sprint releases, ensuring strict alignment between business goals and technical execution.
+- Data-Driven Growth: Leveraged SQL to analyze user transaction behaviors and onboarding funnels, implementing retention features that significantly increased platform liquidity.
+Leading the end-to-end product strategy and development of a high-performance fintech platform from 0-to-1. - Product Strategy & Launch: Defined the roadmap and executed a GTM strategy that acquired 300+ active users and achieved $42K+ in Monthly Gross Transaction Value (GTV). - Technical Leadership: Architected the platform’s core matching engine and settlement layer, translating complex business requirements into detailed technical specifications (API & Microservices) for the engineering team. - Scalable Architecture: Conducted feasibility studies on high-performance distributed database technologies to select a tech stack optimized for speed and security. - Agile Management: Managed a cross-functional squad of 4 (Engineering, Design, Ops) to deliver weekly sprint releases, ensuring strict alignment between business goals and technical execution. - Data-Driven Growth: Leveraged SQL to analyze user transaction behaviors and onboarding funnels, implementing retention features that significantly increased platform liquidity.
+Skills: Product Management · Product Strategy · Agile Methodologies · System Architecture · Go-to-Market Strategy · Jira · FinTech · SQL · Leadership · Team Management
+
+
+Product Analyst
+Product Analyst
+Cloudsolutely Pte. Ltd. · Full-timeCloudsolutely Pte. Ltd. · Full-time
+Nov 2022 - Jun 2023 · 8 mosNov 2022 to Jun 2023 · 8 mos
+SingaporeSingapore
+- Product Strategy: Conducted deep-dive analysis on emerging fintech sectors to guide the strategic direction of a $1M+ corporate digital asset portfolio.
+- Performance Optimization: Leveraged SQL and Python to model market trends and identify growth opportunities, resulting in a 68% YoY portfolio growth.
+- Risk & Infrastructure: Collaborated on the implementation of institutional-grade security protocols (MPC technology), directly improving product reliability and reducing operational risk by 80%.
+- Product Strategy: Conducted deep-dive analysis on emerging fintech sectors to guide the strategic direction of a $1M+ corporate digital asset portfolio. - Performance Optimization: Leveraged SQL and Python to model market trends and identify growth opportunities, resulting in a 68% YoY portfolio growth. - Risk & Infrastructure: Collaborated on the implementation of institutional-grade security protocols (MPC technology), directly improving product reliability and reducing operational risk by 80%.
+Skills: Data Analysis · SQL · Python (Programming Language) · Market Research · Risk Management · Investment Strategies · Financial Modeling · Blockchain Architecture
+
+
+Assistant Lecturer
+Assistant Lecturer
+Universitas Trisakti · Full-timeUniversitas Trisakti · Full-time
+Aug 2020 - Aug 2022 · 2 yrs 1 moAug 2020 to Aug 2022 · 2 yrs 1 mo
+Jakarta, IndonesiaJakarta, Indonesia
+- Curriculum Design: Designed and delivered technical training curriculums for 5 core computer science courses (Data Science, Enterprise Architecture) to 120+ students.
+- User Training: Managed user education and facilitated technical workshops, achieving a 90% satisfaction rate through effective communication of complex concepts.
+- Curriculum Design: Designed and delivered technical training curriculums for 5 core computer science courses (Data Science, Enterprise Architecture) to 120+ students. - User Training: Managed user education and facilitated technical workshops, achieving a 90% satisfaction rate through effective communication of complex concepts.
+Skills: University Lecturing · Curriculum Development · Data Science · Leadership · Enterprise Architecture (TOGAF) · Public Speaking · Python (Programming Language) · Mentoring · Smart Contracts · Blockchain Education
+
+
+Cloud Engineer & Project Lead
+Cloud Engineer & Project Lead
+Bangkit Academy led by Google, Tokopedia, Gojek, & TravelokaBangkit Academy led by Google, Tokopedia, Gojek, & Traveloka
+Feb 2021 - Jul 2021 · 6 mosFeb 2021 to Jul 2021 · 6 mos
+Jakarta, IndonesiaJakarta, Indonesia
+- Capstone Leadership: Led a cross-functional team to develop an ML-based agricultural price prediction tool.
+- Technical Execution: Architected the end-to-end solution on Google Cloud Platform (GCP) and achieved 84% forecast accuracy using advanced statistical models.
+- Capstone Leadership: Led a cross-functional team to develop an ML-based agricultural price prediction tool. - Technical Execution: Architected the end-to-end solution on Google Cloud Platform (GCP) and achieved 84% forecast accuracy using advanced statistical models.
+Skills: Project Management · Team Leadership · Google Cloud Platform (GCP) · Machine Learning · Predictive Modeling · Time Series Analysis · Stakeholder Management · Data Analytics
+
+
+Data Analyst & Team Leader
+Data Analyst & Team Leader
+ASEAN FoundationASEAN Foundation
+Feb 2020 - Aug 2021 · 1 yr 7 mosFeb 2020 to Aug 2021 · 1 yr 7 mos
+Jakarta, Indonesia · RemoteJakarta, Indonesia · Remote
+Strategic Analysis: Led a team analyzing 2,000+ data points on sustainability challenges to develop recommendations projected to increase farmer income stability by ~10%.
+Strategic Analysis: Led a team analyzing 2,000+ data points on sustainability challenges to develop recommendations projected to increase farmer income stability by ~10%.
+Skills: Team Leadership · Data Analysis · Statistical Analysis · Business Intelligence (BI) · Stakeholder Management · Sustainability Reporting · SAP Analytics Cloud

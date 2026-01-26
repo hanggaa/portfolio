@@ -7,60 +7,59 @@ export const experiences = [
     duration: "Jul 2023 - Present · 2 yrs 7 mos",
     location: "Jakarta · Remote",
     type: "Full-time",
-    summary: "Led the end-to-end product strategy and technical execution of a high-frequency trading platform on SUI blockchain. Scaled from 0-to-1, achieving $42K+ in monthly volume and acquiring 300+ active traders.",
-    companyImage: "https://idhjdifuxixcwzxbe3dgq47r6dkw23uscv2i44bcmva2mnpudu6a.arweave.net/QM6RoLS6Litm4SbGaHPx8NVtbpIVdI5wImVBpjX0HTw", // Used NoaSight Logo
+    summary: "Led the end-to-end product strategy and development of a high-volume transaction engine from 0-to-1, managing the lifecycle from initial R&D to market launch.",
+    companyImage: "https://idhjdifuxixcwzxbe3dgq47r6dkw23uscv2i44bcmva2mnpudu6a.arweave.net/QM6RoLS6Litm4SbGaHPx8NVtbpIVdI5wImVBpjX0HTw",
     media: [
       {
         type: "image",
         companyimage: "https://f7ogmqmq5gbpgr4ylvqwbjgx3niiwqhwy6dvx75gxqwwfbp3uydq.arweave.net/L9xmQZDpgvNHmF1hYKTX21CLQPbHh1v_prwtYoX7pgc",
         url: "https://sui.noasight.xyz/",
-        title: "Live Platform (SUI)"
+        title: "Live Platform"
       },
       {
         type: "image",
         companyimage: "https://b2h3m6msxo327f2aqvbmlpf45swd4zfjgoq5t2g3ksnh2go5keuq.arweave.net/Do-2eZK7t6-XQIVCxby87Kw-ZKkzodno21SafRndUSk",
         url: "https://oraclesui.noasight.xyz/",
-        title: "Oracle Infrastructure"
+        title: "Data Infrastructure"
       },
       {
         type: "image",
         companyimage: "https://jo7xb3r7jluvya2kkbq7vkuveu2vtwsb74bvd5xoqztb726yozaq.arweave.net/S79w7j9K6VwDSlBh-qqVJTVZ2kH_A1H27oZmH-vYdkE",
         url: "https://analytics.noasight.xyz/",
-        title: "Data Analytics Dashboard"
+        title: "Analytics Dashboard"
       },
       {
         type: "image",
-        companyimage: "https://prtjsfatq7dnl7to742brxrcnmcuhzswh5nkacthrwm6hzukhsoa.arweave.net/fGaZFBOHxtX-bv80GN4iawVD5lY_WqAKZ42Z4-aKPJw",
-        url: "https://presentation.noasight.xyz/",
-        title: "Product Strategy Deck"
+        companyimage: "https://media.licdn.com/dms/image/v2/D562DAQEzbuhGGDks9g/profile-treasury-image-shrink_800_800/B56ZqR_aCjJ8Ac-/0/1763385911068?e=1770058800&v=beta&t=Ua3PKV9iOfdoHwZjC_TVgyhPDMuZ9fkVGOxMbm7tU-4",
+        url: "https://sui.noasight.xyz/#/dao",
+        title: "Community Governance"
       }
     ],
     details: {
       productStrategy: [
-        "Defined product roadmap and GTM strategy, launching a decentralized prediction market that processed 10,500+ transactions in 6 months",
-        "Achieved $42K+ (26,323 SUI) in Gross Transaction Value and 19,166 SUI in Total Value Locked (TVL)",
-        "Analyzed user behavior using SQL to optimize the onboarding flow, distributing 285 NFT incentives to drive retention",
-        "Managed a cross-functional team of 4 (Engineering, Design, Ops) using Agile methodologies to ship weekly updates"
+        "Defined the product roadmap and executed a GTM strategy that acquired 300+ active users and achieved $42K+ in monthly Gross Transaction Volume within 6 months of beta launch",
+        "Managed the lifecycle from initial R&D to market launch, ensuring product-market fit through continuous iteration",
+        "Conducted feasibility studies on financial models to select the optimal tech stack for high scalability"
       ],
-      technicalArchitecture: [
-        "Architected the full-stack solution including Move smart contracts and a high-performance matching engine",
-        "Designed the core settlement layer and liquidity systems inspired by order-book dynamics",
-        "Conducted initial R&D on Layer 2 solutions and Zero-Knowledge proofs to select the optimal tech stack"
+      technicalLeadership: [
+        "Architected the platform's core high-velocity matching engine and settlement layer, translating complex market requirements into technical specifications (APIs/Microservices)",
+        "Led a cross-functional team of 4 (Engineers, Design, Ops) using JIRA to deliver weekly sprint releases",
+        "Facilitated UAT sessions and bug tracking to ensure alignment between business goals and technical execution"
       ],
-      researchAndDevelopment: [
-        "Conducted comprehensive research on blockchain business models, resulting in two published papers on distributed ledger technology",
-        "Evaluated enterprise integration frameworks for Ethereum, SUI, and Arweave to ensure scalability and security"
+      dataDrivenGrowth: [
+        "Leveraged SQL to analyze user transaction behaviors, implementing retention features that increased Daily Active Users (DAU) and platform liquidity",
+        "Designed and monitored key performance metrics to drive product improvements and user acquisition"
       ]
     }
   },
   {
     id: "cloudsolutely",
-    title: "Product & Data Analyst",
+    title: "Product Analyst",
     company: "Cloudsolutely Pte. Ltd.",
     duration: "Nov 2022 - Jun 2023 · 8 mos",
     location: "Singapore",
     type: "Full-time",
-    summary: "Executed data-driven investment strategies and technology implementation for a $1M+ corporate portfolio, leveraging SQL and Python for market analysis.",
+    summary: "Executed high-impact investment strategies and technology implementation for a corporate portfolio, focusing on emerging fintech sectors.",
     companyImage: "https://37roh2ycssyfolt2pdu7qwxcv6moa55mflp3hcho2zhz6fjhb33a.arweave.net/3-Lj6wKUsFcuenjp-Frir5jgd6wq37OI7tZPnxUnDvY",
     media: [
       {
@@ -73,26 +72,24 @@ export const experiences = [
         type: "image",
         companyimage: "https://quq6ne3jkcnncc7m646zhcnd6zolt4q2lohlgb5yznlcdp5m3swa.arweave.net/hSHmk2lQmtEL7Pc9k4mj9ly58hpbjrMHuMtWIb-s3Kw",
         url: "https://udjoydj3cxxtzle6qh2ybpmi653v22ncrc37hkewrfou74phmh4a.arweave.net/oNLsDTsV7zysnoH1gL2I93ddaaKIt_OololdT_HnYfg",
-        title: "Storage Infrastructure Analysis"
+        title: "Infrastructure Analysis"
       }
     ],
     details: {
-      dataAnalysis: [
-        "Leveraged SQL and Python to analyze market trends in DeFi and Layer 2 protocols, identifying high-growth opportunities",
-        "Achieved 68% YoY portfolio growth through strategic asset allocation based on quantitative analysis",
-        "Conducted technical due diligence on seed-stage projects (Circuit, Aptos), analyzing tokenomics and architecture"
+      marketAnalysis: [
+        "Conducted market research and data analysis on emerging fintech sectors to guide a $1M+ corporate asset portfolio strategy",
+        "Leveraged SQL and Python to analyze market trends, optimizing asset allocation strategies that resulted in 68% YoY portfolio growth"
       ],
-      securityInfrastructure: [
-        "Designed institutional-grade security architecture using MPC (Multi-Party Computation) and Multisig wallets",
-        "Migrated company treasury assets to a secure custody solution, eliminating single-point-of-failure risks",
-        "Established operational protocols for C-level asset management and risk mitigation"
+      infrastructureAndSecurity: [
+        "Led the implementation of institutional-grade security protocols (MPC technology) for asset custody, reducing operational risk by 80%",
+        "Delivered research and strategic insights to C-level leadership on technology trends and portfolio allocation"
       ]
     }
   },
   {
     id: "trisakti",
     title: "Assistant Lecturer (Data Science & Enterprise Architecture)",
-    company: "Universitas Trisakti",
+    company: "Trisakti University",
     duration: "Aug 2020 - Aug 2022 · 2 yrs 1 mo",
     location: "Jakarta",
     type: "Full-time",
@@ -108,14 +105,13 @@ export const experiences = [
     ],
     details: {
       curriculumDesign: [
-        "Developed hands-on Data Science curriculum using Python and real-world business cases, achieving a 90% student satisfaction rate",
-        "Designed Enterprise Architecture curriculum incorporating TOGAF framework, adopted by multiple university departments",
-        "Created complex learning modules for Computer Networks and Business Process Accounting"
+        "Designed and delivered technical training materials and curriculum for 5 core computer science courses (Data Science, Enterprise Architecture) to 120+ students",
+        "Effectively managed user education and achieved a 90% satisfaction rate",
+        "Pioneered the integration of emerging technology education into the standard curriculum"
       ],
       technicalMentorship: [
-        "Facilitated hands-on workshops for smart contract programming and software development",
-        "Mentored 40+ students on creating GitHub portfolios and deploying real-world applications",
-        "Integrated Cloud Computing (GCP) concepts into data science projects for practical industry experience"
+        "Facilitated hands-on workshops for software development and smart contracts, mentoring 40+ students on real-world applications",
+        "Guided students in building portfolios and deploying practical projects"
       ]
     }
   },
@@ -126,7 +122,7 @@ export const experiences = [
     duration: "Feb 2021 - Jul 2021 · 6 mos",
     location: "Jakarta",
     type: "Program",
-    summary: "Led a cross-functional team to build a Machine Learning solution on Google Cloud Platform, achieving 84% model accuracy.",
+    summary: "Led a cross-functional capstone project developing an ML solution for agricultural price prediction, selected for a prestigious Google-backed program.",
     companyImage: "https://hzijudtpbcjcmlg4wdoglbin3gaxg7ylkkqnneadgtx5wbrnfjsq.arweave.net/PlCaDm8IkiYs3LDcZYUN2YFzfwtSoNaQAzTv2wYtKmU",
     media: [
       {
@@ -144,14 +140,13 @@ export const experiences = [
     ],
     details: {
       projectLeadership: [
-        "Led a cross-functional team of 6 members to build a predictive analytics tool using Google Cloud Platform (GCP)",
-        "Managed project timelines, deliverables, and stakeholder communications, securing extension funding",
-        "Achieved 84% forecasting accuracy using Holt-Winters and ARIMA time series models"
+        "Led the development of an AI-driven agricultural price prediction model using Machine Learning, directly addressing supply chain volatility",
+        "Secured project extension and additional funding after presenting impact and ROI to stakeholders",
+        "Managed a cross-functional team to deliver the solution within strict timelines"
       ],
       technicalExecution: [
-        "Architected end-to-end cloud infrastructure integrating multiple GCP services for data processing",
-        "Implemented advanced statistical models using R programming language for time-series analysis",
-        "Demonstrated measurable impact on decision-making processes through data visualization"
+        "Achieved 84% accuracy (ARIMA, Holt-Winters) and deployed scalable cloud infrastructure on Google Cloud Platform (GCP)",
+        "Architected the end-to-end solution integrating data processing and visualization services"
       ]
     }
   },
@@ -162,7 +157,7 @@ export const experiences = [
     duration: "Feb 2020 - Aug 2021 · 1 yr 7 mos",
     location: "Remote",
     type: "Program",
-    summary: "Led a data science team conducting comprehensive analysis on supply chain sustainability and economic impact.",
+    summary: "Led a team conducting comprehensive data analysis on UN SDG 12 (Responsible Consumption and Production) addressing agricultural sustainability.",
     companyImage: "https://kryysjgcyenhuujwx7jxoqgbt2flafmpbalzun5756bk5vki3sja.arweave.net/VHGJJMLBGnpRNr_Td0DBnoqwFY8IF5o3v--CrtVI3JI",
     media: [
       {
@@ -180,13 +175,9 @@ export const experiences = [
     ],
     details: {
       analyticalAchievements: [
-        "Performed in-depth statistical analysis on 2,000+ data points to identify supply chain inefficiencies",
-        "Developed data-driven recommendations projected to improve economic indicators by 10%",
-        "Created comprehensive micro-strategies for long-term sustainability"
-      ],
-      teamLeadership: [
-        "Led team through intensive data science program from initiation to final executive presentation",
-        "Presented findings to ASEAN Foundation leadership through detailed reports and dashboards"
+        "Analyzed 2,000+ agricultural data points to evaluate sustainability gaps in Indonesia and Vietnam",
+        "Developed recommendations projected to increase farmer income stability by ~10%",
+        "Presented findings to ASEAN Foundation through executive reporting"
       ]
     }
   }

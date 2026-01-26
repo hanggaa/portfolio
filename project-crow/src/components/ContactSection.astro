@@ -3,12 +3,12 @@
 ---
 <section id="contact" class="py-24 px-4 bg-brand-background dark:bg-brand-bg">
   <div class="container mx-auto">
-    <div class="text-center mb-12">
+    <div class="text-center mb-12 animate-on-scroll">
       <h2 class="text-4xl font-bold">Get In Touch</h2>
       <p class="text-brand-primary dark:text-brand-primary mt-2">Have a question or want to work together? Let's connect.</p>
     </div>
 
-    <div class="max-w-4xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 bg-brand-surface dark:bg-brand-surface p-8 rounded-lg border border-brand-outline dark:border-brand-outline">
+    <div class="max-w-4xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 bg-brand-surface dark:bg-brand-surface p-8 rounded-lg border border-brand-outline dark:border-brand-outline animate-on-scroll delay-200">
       <div>
         <h3 class="text-2xl font-bold mb-4">Let's Collaborate</h3>
         <p class="text-brand-text-secondary dark:text-brand-text-secondary mb-6">
@@ -59,10 +59,10 @@
 </style>
 
 <script>
-  const contactForm = document.getElementById('contact-form');
-  const submitButton = document.getElementById('submit-button');
+  const contactForm = document.getElementById('contact-form') as HTMLFormElement | null;
+  const submitButton = document.getElementById('submit-button') as HTMLButtonElement | null;
   
-  if (contactForm) {
+  if (contactForm && submitButton) {
     contactForm.addEventListener('submit', function (e) {
       e.preventDefault();
       submitButton.disabled = true;
@@ -85,9 +85,11 @@
         })
         .finally(() => {
           setTimeout(() => {
-            submitButton.disabled = false;
-            if (submitButton.textContent === 'Message Sent!') {
-              submitButton.textContent = 'Send Message';
+            if (submitButton) {
+              submitButton.disabled = false;
+              if (submitButton.textContent === 'Message Sent!') {
+                submitButton.textContent = 'Send Message';
+              }
             }
           }, 3000);
         });
